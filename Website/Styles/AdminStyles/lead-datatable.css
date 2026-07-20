@@ -1,0 +1,93 @@
+﻿body {
+}
+.ui-widget-header {
+     background-color: #444444;
+    border: 1px solid #AAAAAA;
+    color: white;
+    font-weight: bold;
+    padding:5px;
+}
+.ui-helper-clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+div[id$="_length"],div[id$="_info"] {
+    float:left;
+}
+div[id$="_filter"],div[id$="_paginate"] {
+    float:right;
+}
+
+
+
+.dataTables_paginate .ui-button {
+	margin-right: -0.1em !important;
+         padding: 2px 6px;
+}
+.dataTables_paginate {
+    width: auto;
+	float: right;
+	text-align: right;     
+}
+.dataTable {
+    border-spacing:1px;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables row classes
+ */
+table.display tr.odd.gradeA {
+	background-color: #ddffdd;
+}
+
+table.display tr.even.gradeA {
+	background-color: #eeffee;
+}
+
+
+
+
+table.display tr.odd.gradeA {
+	background-color: #ddffdd;
+}
+
+table.display tr.even.gradeA {
+	background-color: #eeffee;
+}
+
+table.display tr.odd.gradeC {
+	background-color: #ddddff;
+}
+
+table.display tr.even.gradeC {
+	background-color: #eeeeff;
+}
+
+table.display tr.odd.gradeX {
+	background-color: #ffdddd;
+}
+
+table.display tr.even.gradeX {
+	background-color: #ffeeee;
+}
+
+table.display tr.odd.gradeU {
+	background-color: #ddd;
+}
+
+table.display tr.even.gradeU {
+	background-color: #eee;
+}
+
+
+tr.odd {
+	background-color: #ddd;
+}
+
+tr.even {
+	background-color: white;
+}
+
+

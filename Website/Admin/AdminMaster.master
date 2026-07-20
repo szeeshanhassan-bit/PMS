@@ -1,0 +1,265 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="Admin_LeadAdmin" %>
+
+<!DOCTYPE html5>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="../Styles/AdminStyles/lead-datatable.css" rel="stylesheet" />
+    <link href="../Styles/jquery-ui.css" rel="stylesheet" />
+    <link href="../Styles/common/bootstrap.css" rel="stylesheet" />
+    <link href="../Styles/AdminStyles/adminMainStyles.css" rel="stylesheet" />
+    <link href="../Styles/jquery.signature.css" rel="stylesheet" />
+    <link href="../Styles/jquery-ui-datepicker.css" rel="stylesheet" />
+
+    <%--<script src="../Scripts/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>--%>
+    <script src="../Scripts/jquery1.12.min.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
+    <script src="../Scripts/jquery.dataTables.js"></script>
+    <script src="../Scripts/jquery.blockUI.js"></script>
+    <script src="../Scripts/date.js"></script>
+
+    <script src="../Scripts/jquery-ui.custom.js"></script>
+    <script src="../Scripts/jquery.ui.core.js"></script>
+    <script src="../Scripts/jquery.ui.mouse.js"></script>
+    <script src="../Scripts/jquery.ui.sortable.js"></script>
+    <script src="../Scripts/jquery.ui.widget.js"></script>
+    <script src="../Scripts/jquery.ui.datepicker.js"></script>
+    <script src="../Scripts/jquery-ui.min.js"></script>
+    <%--[if IE]>
+   <script src="../Scripts/excanvas.js"></script>
+<![endif]--%>
+
+    <script src="../Scripts/jquery.signature.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--<div>--%>
+
+        <style type="text/css">
+            .sf-vertical li
+            {
+                width: 100%;
+                -moz-border-bottom-colors: none;
+                -moz-border-left-colors: none;
+                -moz-border-right-colors: none;
+                -moz-border-start: 1px solid transparent;
+                -moz-border-top-colors: none;
+                /* -moz-margin-start: -1px;*/
+                background-color: #444444;
+                /* border-color: black;*/
+                border-image: none;
+                border-radius: 0 2.5px 2.5px 0;
+                border-style: -moz-bg-inset;
+                border-width: 1px;
+                box-shadow: 0 0 2px rgba(255, 255, 255, 0.5) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+                cursor: pointer;
+                transition-duration: 150ms;
+                transition-property: background-color, border-color, box-shadow;
+                color: white;
+            }
+
+                .sf-vertical li:hover
+                {
+                    border-color: #59B5FC #45A3E7 #3294D5;
+                    color: #FFFFFF;
+                    background-color: #888;
+                    /*background-image: linear-gradient(#4CB1FF, #1793E5);*/
+                    /*box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 0 0 1px rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(23, 51, 78, 0.03);*/
+                }
+
+            #main-navigation
+            {
+                background-color: #444444;
+            }
+
+            input[type="text"].lead
+            {
+                float: left;
+                width: 170px;
+                height: 25px;
+                background: #f5f5f5;
+                border: 1px solid #9f9f9f;
+                border-radius: 3px 3px 3px 3px;
+                margin-bottom: 10px;
+                padding-left: 5px;
+            }
+
+            .txt
+            {
+                float: left;
+                width: 170px;
+                height: 25px;
+                background: #f5f5f5;
+                border: 1px solid #9f9f9f;
+                border-radius: 3px 3px 3px 3px;
+                margin-bottom: 10px;
+                padding-left: 5px;
+            }
+
+            textarea.lead
+            {
+                height: 100px;
+                background: #f5f5f5;
+                border: 1px solid #9f9f9f;
+                border-radius: 3px 3px 3px 3px;
+                margin-bottom: 10px;
+                padding-left: 5px;
+                width: 600px;
+                overflow: auto;
+                font-family: Arial;
+                font-size: 12px;
+                float: left;
+            }
+
+            label.lead
+            {
+                float: left;
+                clear: left;
+                width: 100px;
+                color: #333333;
+                display: block;
+                font-size: 13px;
+                font-weight: bold;
+                padding-bottom: 5px;
+                padding-top: 5px;
+            }
+
+            input[type="button"].lead
+            {
+                font-size: 11px;
+                cursor: pointer;
+                -moz-box-shadow: 0 0 2px 1px #ccc;
+                -webkit-box-shadow: 0 0 2px 1px #ccc;
+                box-shadow: 0 0 2px 0px #ccc;
+                border-radius: 3px 3px 3px 3px;
+                background-color: #333;
+                padding: 5px 20px;
+                line-height: 25px;
+                height: 30px;
+                float: none;
+                border: 0;
+                width: 115px;
+                /* text-transform: uppercase;*/
+                font-weight: bold;
+                color: white;
+                color: #FFFFFF !important;
+                margin-left: 4px;
+                margin-right: 3px;
+            }
+
+            input[type="button"]:hover.lead
+            {
+                border-color: blue;
+                color: #FFFFFF;
+                background-color: #4CB1FF;
+                border: 1px solid blue;
+            }
+
+
+            select.lead
+            {
+                width: 172px !important;
+                border: 1px solid #7f9db9 !important;
+                vertical-align: middle !important;
+                height: 27px !important;
+                padding: 3px !important;
+                color: #666666 !important;
+                font-size: 11px !important;
+                font: Arial !important;
+                border: 1px solid #9F9F9F !important;
+                background: none repeat scroll 0 0 #FFFFFF !important;
+                border-radius: 3px 3px 3px 3px !important;
+                margin-bottom: 10px !important;
+                float: left;
+            }
+
+            .btn
+            {
+                font-size: 11px;
+                cursor: pointer;
+                -moz-box-shadow: 0 0 2px 1px #ccc;
+                -webkit-box-shadow: 0 0 2px 1px #ccc;
+                box-shadow: 0 0 2px 0px #ccc;
+                border-radius: 3px 3px 3px 3px;
+                background-color: #333;
+                border: 0;
+                /* text-transform: uppercase;*/
+                font-weight: bold;
+                color: white;
+                color: #FFFFFF !important;
+                margin-right: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            select option.lead
+            {
+                padding: 5px !important;
+                vertical-align: middle !important;
+            }
+
+            select option:last-child.lead
+            {
+                border-bottom: none !important;
+            }
+
+            .sf-vertical li a
+            {
+                padding-left: 25px;
+            }
+
+
+            .innerContainer
+            {
+                /*border-radius: 5px 5px 5px 5px !important;*/
+                background: #fff;
+                /*border: 1px solid #ccc;*/
+                padding-left: 30px;
+                padding-right: 20px;
+            }
+        </style>
+
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="main-header">
+                        <h1>Admin Panel</h1>
+                        <div style='color: white; float: right; margin-right: 20px; cursor: pointer;' onclick="logout();">
+                            <h1>Logout</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-xs-2">
+                    <div id="main-navigation">
+                        <ul class="sf-vertical">
+                            <%--<li class="header">Navigation</li>--%>
+                            <li><a class="entypo-layout active-tab" style="padding-left: 0px" href="javascript:void(0)" onclick="LoadControl('DashboardControl');setContent(this);" data-desc="Defines the overview of all sections">Dashboard</a></li>
+                            <li><a href="javascript:void(0)" onclick="LoadControl('SupplierControl');setContent(this);" data-desc="Manages the suppliers of your company">Supplier</a></li>                         
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-8">
+                    <div id="main-content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2"></div>
+            </div>
+        </div>
+        <%-- </div>--%>
+    </form>
+</body>
+</html>
+<script>
+  
+</script>

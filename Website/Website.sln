@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", ".", "{0863F83B-EA9F-415B-912B-ECA3A641311F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Website"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Office\OneDrive - Pak Telecom Mobile Limited\persoal\work\WebTemplate\WebsiteTemplate\Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Website\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Website"
+		Release.AspNetCompiler.PhysicalPath = "D:\Office\OneDrive - Pak Telecom Mobile Limited\persoal\work\WebTemplate\WebsiteTemplate\Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Website\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "35165"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "..\BusinessLayer\BusinessLayer.csproj", "{B8989320-E016-46BD-BA3B-CE35DF23A5DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\DataAccessLayer\DataAccessLayer.csproj", "{7C9879D7-3075-43DA-A7A9-45BCBACBB6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLayer", "..\ApiLayer\ApiLayer.csproj", "{E3A8B9C7-4455-4D8F-A9B5-12F34E5D6C7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0863F83B-EA9F-415B-912B-ECA3A641311F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0863F83B-EA9F-415B-912B-ECA3A641311F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0863F83B-EA9F-415B-912B-ECA3A641311F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0863F83B-EA9F-415B-912B-ECA3A641311F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B8989320-E016-46BD-BA3B-CE35DF23A5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8989320-E016-46BD-BA3B-CE35DF23A5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8989320-E016-46BD-BA3B-CE35DF23A5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8989320-E016-46BD-BA3B-CE35DF23A5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9879D7-3075-43DA-A7A9-45BCBACBB6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9879D7-3075-43DA-A7A9-45BCBACBB6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9879D7-3075-43DA-A7A9-45BCBACBB6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9879D7-3075-43DA-A7A9-45BCBACBB6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A8B9C7-4455-4D8F-A9B5-12F34E5D6C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A8B9C7-4455-4D8F-A9B5-12F34E5D6C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A8B9C7-4455-4D8F-A9B5-12F34E5D6C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A8B9C7-4455-4D8F-A9B5-12F34E5D6C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
