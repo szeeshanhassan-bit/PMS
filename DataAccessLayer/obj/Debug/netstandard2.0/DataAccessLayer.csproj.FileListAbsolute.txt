@@ -1,0 +1,8 @@
+C:\Users\Fahad Computer\Desktop\PMS\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Fahad Computer\Desktop\PMS\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fahad Computer\Desktop\PMS\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Fahad Computer\Desktop\PMS\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.deps.json
+C:\Users\Fahad Computer\Desktop\PMS\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\Users\Fahad Computer\Desktop\PMS\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\Users\Fahad Computer\Desktop\PMS\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
+C:\Users\Fahad Computer\Desktop\PMS\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb
