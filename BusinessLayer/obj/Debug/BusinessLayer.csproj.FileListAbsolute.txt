@@ -1,0 +1,39 @@
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreen\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreen\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreen\BusinessLayer\bin\Debug\DataAccessLayer.dll
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreen\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreen\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreen\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreenProject\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreenProject\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreenProject\BusinessLayer\bin\Debug\DataAccessLayer.dll
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreenProject\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\office-one drive\OneDrive - Pak Telecom Mobile Limited\persoal\work\ahmed project\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\AssuieGreenProject\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\AssuieGreenProject\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\AssuieGreenProject\BusinessLayer\bin\Debug\DataAccessLayer.dll
+D:\AssuieGreenProject\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+D:\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\One Drive - personal\OneDrive\ahmed project\AssuieGreenProject\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\One Drive - personal\OneDrive\ahmed project\AssuieGreenProject\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\One Drive - personal\OneDrive\ahmed project\AssuieGreenProject\BusinessLayer\bin\Debug\DataAccessLayer.dll
+D:\One Drive - personal\OneDrive\ahmed project\AssuieGreenProject\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+D:\One Drive - personal\OneDrive\ahmed project\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\One Drive - personal\OneDrive\ahmed project\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\One Drive - personal\OneDrive\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\One Drive - personal\OneDrive\AssuieGreenProject\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\One Drive - personal\OneDrive\AssuieGreenProject\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\One Drive - personal\OneDrive\AssuieGreenProject\BusinessLayer\bin\Debug\DataAccessLayer.dll
+D:\One Drive - personal\OneDrive\AssuieGreenProject\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+D:\One Drive - personal\OneDrive\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\One Drive - personal\OneDrive\AssuieGreenProject\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Office\OneDrive - Pak Telecom Mobile Limited\persoal\work\WebTemplate\WebsiteTemplate\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Office\OneDrive - Pak Telecom Mobile Limited\persoal\work\WebTemplate\WebsiteTemplate\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Office\OneDrive - Pak Telecom Mobile Limited\persoal\work\WebTemplate\WebsiteTemplate\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Office\OneDrive - Pak Telecom Mobile Limited\persoal\work\WebTemplate\WebsiteTemplate\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Office\OneDrive - Pak Telecom Mobile Limited\persoal\work\WebTemplate\WebsiteTemplate\BusinessLayer\bin\Debug\DataAccessLayer.dll
+D:\Office\OneDrive - Pak Telecom Mobile Limited\persoal\work\WebTemplate\WebsiteTemplate\BusinessLayer\bin\Debug\DataAccessLayer.pdb
